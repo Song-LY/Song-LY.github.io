@@ -1,0 +1,77 @@
+/* 宋林峪自用css */
+
+/* 第4-71行，点击显示图片 */
+/*
+ul {
+	width: 500px;
+	height: 600px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	border-style: solid;
+}
+
+
+
+li {
+	list-style-type: none; 
+	position: relative; 
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+*/
+
+img {
+	width: 250px;
+	height: 250px;
+	/* max-width: 100%; */
+	display: block;
+}
+
+
+
+/*设置默认属性*/
+
+/*
+li:LINK {
+	background-color: #FFFFFF;
+}
+ 
+li:VISITED {
+	background-color: #FFFFFF;
+}
+ 
+li:HOVER {
+	background-color: #FFFFFF;
+}
+ 
+li:ACTIVE {
+	background-color: #FFFFFF;
+}
+
+*/
+
+/*设置关联属性*/
+
+#div_02 {
+	display: none; /*初始不显示*/
+	position: -webkit-sticky; /* safari 浏览器 */
+	position: sticky;
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+}
+ 
+#div_02 img {
+	display: block; /*一直显示*/
+}
+
+li:HOVER #div_02 {
+	display: block; /*当鼠标悬停时，显示图片 */
+}
+
+
