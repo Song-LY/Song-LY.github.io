@@ -2,7 +2,7 @@
 
 **已解析到个人域名[https://songlinyu.com](https://songlinyu.com)**
 
-**使用了[HTML5UP](html5up.net)的模板，它家的模板都不错，点赞**
+**使用了[HTML5UP](https://html5up.net)的模板，它家的模板都不错，点赞**
 
 **引入了Google Analytics来统计网站数据**
 
